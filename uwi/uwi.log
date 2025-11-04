@@ -1,0 +1,516 @@
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 14:50:12 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 14:50:12 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 14:50:12 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 14:50:12 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=7443
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761853827634157408' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://10.0.0.60:8000' | CONNECT
+Thu, 30 Oct 2025 14:50:27 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 14:50:28 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 14:50:28 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 14:50:40 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/off.png' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761853906821566178' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 14:51:46 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761853827634157408' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://10.0.0.60:8000' pid:'7458' | DISCONNECT
+Thu, 30 Oct 2025 14:51:47 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 14:51:47 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 14:51:47 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/off.png' | STATIC
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 15:08:23 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 15:08:23 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 15:08:23 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 15:08:23 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 15:08:23 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 15:08:28 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 15:08:28 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 15:08:28 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 15:08:28 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2746
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 15:09:40 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761854980261711027' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 15:10:04 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855004397716688' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 15:10:05 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 15:10:05 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 15:10:05 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 15:10:05 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/off.png' | STATIC
+Thu, 30 Oct 2025 15:10:24 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-precomposed.png' | STATIC
+Thu, 30 Oct 2025 15:10:24 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 15:10:24 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Thu, 30 Oct 2025 15:10:25 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 15:10:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-120x120-precomposed.png' | STATIC
+Thu, 30 Oct 2025 15:10:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-120x120.png' | STATIC
+Thu, 30 Oct 2025 15:10:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Thu, 30 Oct 2025 15:10:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Thu, 30 Oct 2025 15:10:55 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855004397716688' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4418' | DISCONNECT
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 15:11:06 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855066554134101' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 15:11:07 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 15:11:07 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 15:13:09 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855066554134101' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4590' | DISCONNECT
+Thu, 30 Oct 2025 15:13:24 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 15:13:24 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761854980261711027' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4247' | DISCONNECT
+Thu, 30 Oct 2025 15:13:24 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 15:13:24 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855204716265556' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 15:23:32 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_ffffff_256x240.png' | STATIC
+Thu, 30 Oct 2025 15:23:32 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_777777_256x240.png' | STATIC
+Thu, 30 Oct 2025 15:23:32 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855812943614893' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 15:24:46 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761855812943614893' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5458' | DISCONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 17:20:55 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 17:20:55 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 17:20:55 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 17:20:55 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 17:20:55 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 17:21:00 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 17:21:00 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 17:21:00 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 17:21:00 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2724
+Thu, 30 Oct 2025 19:14:10 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_777777_256x240.png' | STATIC
+Thu, 30 Oct 2025 19:14:10 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_ffffff_256x240.png' | STATIC
+Thu, 30 Oct 2025 19:14:11 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761869651219094533' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 20:24:12 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761869651219094533' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4691' | DISCONNECT
+Thu, 30 Oct 2025 20:48:21 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-precomposed.png' | STATIC
+Thu, 30 Oct 2025 20:48:21 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Thu, 30 Oct 2025 20:48:21 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 20:48:21 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:03:20 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 22:03:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 22:03:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 22:03:20 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761879800701265122' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:12:21 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:12:21 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:12:21 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:12:21 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:12:21 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:12:26 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:12:26 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:12:26 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:12:26 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2723
+Thu, 30 Oct 2025 22:12:49 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880369741878489' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:12:51 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:12:51 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880369741878489' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4219' | DISCONNECT
+Thu, 30 Oct 2025 22:12:51 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880371578339924' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:13:13 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh.gif' | STATIC
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:15:48 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:15:48 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:15:48 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:15:48 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:15:48 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:15:53 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:15:53 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:15:53 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:15:53 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553269560688' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553400569269' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553513031043' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553400569269' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2775' | DISCONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553513031043' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2788' | DISCONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553629906544' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553269560688' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2750' | DISCONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ERROR  | process    | url:'http://10.0.0.60:8000/' id:'1761880553269560688' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2750' | Unexpected error while reading STDERR from process: read |0: file already closed
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553629906544' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2808' | DISCONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553784448772' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:53 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880553784448772' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2824' | DISCONNECT
+Thu, 30 Oct 2025 22:15:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554016711711' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554016711711' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2876' | DISCONNECT
+Thu, 30 Oct 2025 22:15:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554038031934' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:15:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554038031934' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2881' | DISCONNECT
+Thu, 30 Oct 2025 22:15:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554206519120' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+UWI server is started with pid=2719
+Thu, 30 Oct 2025 22:15:59 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:16:00 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880560012258811' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:16:00 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880554206519120' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2889' | DISCONNECT
+Thu, 30 Oct 2025 22:16:07 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:16:07 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880560012258811' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'3920' | DISCONNECT
+Thu, 30 Oct 2025 22:16:07 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880567886791059' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:18:17 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:18:17 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:18:17 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:18:17 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:18:17 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 22:18:22 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 22:18:22 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 22:18:22 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:18:22 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 22:18:23 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:18:23 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880703593667309' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+UWI server is started with pid=2727
+Thu, 30 Oct 2025 22:18:26 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:18:26 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880703593667309' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'2807' | DISCONNECT
+Thu, 30 Oct 2025 22:18:26 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880706678638926' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:18:33 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:18:33 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880706678638926' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'3791' | DISCONNECT
+Thu, 30 Oct 2025 22:18:33 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880713758674352' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:19:47 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:19:47 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880713758674352' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4322' | DISCONNECT
+Thu, 30 Oct 2025 22:19:47 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880787320116883' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880787320116883' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4700' | DISCONNECT
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/rpi/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi4/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880794614254936' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi3/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/zero2go/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:54 -0500 | ACCESS | http       | url:'http://max.local:8000/pgnano/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:19:59 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880794614254936' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4770' | DISCONNECT
+Thu, 30 Oct 2025 22:20:00 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880800400122321' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:26 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880887167715170' remote:'10.0.0.60' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 22:21:27 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 22:21:39 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880899118166232' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:39 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880800400122321' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4786' | DISCONNECT
+Thu, 30 Oct 2025 22:21:41 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880899118166232' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5260' | DISCONNECT
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | http       | url:'http://max.local:8000/rpi/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi3/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi4/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | http       | url:'http://max.local:8000/zero2go/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | http       | url:'http://max.local:8000/pgnano/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:48 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880908254815260' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | http       | url:'http://max.local:8000/rpi/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi3/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880911111676785' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | http       | url:'http://max.local:8000/zero2go/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | http       | url:'http://max.local:8000/wittypi4/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:51 -0500 | ACCESS | http       | url:'http://max.local:8000/pgnano/img/thumb.png' | STATIC
+Thu, 30 Oct 2025 22:21:52 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880911111676785' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5345' | DISCONNECT
+Thu, 30 Oct 2025 22:21:52 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880912404356136' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:21:52 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880908254815260' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5329' | DISCONNECT
+Thu, 30 Oct 2025 22:24:49 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 22:24:49 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761881089756441053' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:25:06 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761881089756441053' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5813' | DISCONNECT
+Thu, 30 Oct 2025 22:25:08 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880912404356136' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5361' | DISCONNECT
+Thu, 30 Oct 2025 22:26:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4' | STATIC
+Thu, 30 Oct 2025 22:26:46 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 22:26:46 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761881206699249794' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 22:28:18 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/off.png' | STATIC
+Thu, 30 Oct 2025 22:28:57 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761881206699249794' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5886' | DISCONNECT
+Thu, 30 Oct 2025 22:42:33 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761880887167715170' remote:'10.0.0.60' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5192' | DISCONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 23:08:58 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 23:08:58 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 23:08:58 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 23:08:58 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Thu, 30 Oct 2025 23:08:58 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Thu, 30 Oct 2025 23:09:03 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Thu, 30 Oct 2025 23:09:03 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Thu, 30 Oct 2025 23:09:03 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Thu, 30 Oct 2025 23:09:03 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2684
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883880684970042' remote:'10.0.0.30' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 23:11:20 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Thu, 30 Oct 2025 23:11:21 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/board.jpg' | STATIC
+Thu, 30 Oct 2025 23:11:21 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/on.png' | STATIC
+Thu, 30 Oct 2025 23:11:33 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery-ui.css' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/jquery.timepicker.css' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/common.css' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery-ui.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/css/mega4.css' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.timepicker.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.textfill.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/jquery.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/js/common.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/js/mega4.js' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/common/img/refresh_disabled.gif' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/wait.gif' | STATIC
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883894028808233' remote:'10.0.0.30' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 23:11:34 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883894028808233' remote:'10.0.0.30' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4374' | DISCONNECT
+Thu, 30 Oct 2025 23:12:00 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/img/off.png' | STATIC
+Thu, 30 Oct 2025 23:12:17 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Thu, 30 Oct 2025 23:12:17 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883937874756638' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 23:30:50 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883880684970042' remote:'10.0.0.30' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4304' | DISCONNECT
+Thu, 30 Oct 2025 23:42:27 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761883937874756638' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'4588' | DISCONNECT
+Thu, 30 Oct 2025 23:42:36 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761885756052707450' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Thu, 30 Oct 2025 23:42:44 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761885756052707450' remote:'10.0.0.240' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5302' | DISCONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:26:44 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:26:44 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:26:44 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:26:44 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:26:44 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:26:49 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:26:49 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:26:49 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:26:49 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2704
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:33:42 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:33:42 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:33:42 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:33:42 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:33:42 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:33:47 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:33:47 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:33:47 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:33:47 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2713
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:34:59 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:34:59 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:34:59 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:34:59 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:34:59 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:35:04 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:35:04 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:35:04 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:35:04 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2867
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:40:01 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:40:01 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:40:01 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:40:01 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:40:01 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 00:40:06 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 00:40:06 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 00:40:06 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 00:40:06 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2695
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 01:06:58 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 01:06:58 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 01:06:58 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 01:06:58 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 01:06:58 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 01:07:03 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 01:07:03 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 01:07:03 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 01:07:03 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2749
+Fri, 31 Oct 2025 01:08:40 -0500 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Fri, 31 Oct 2025 01:08:40 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890920955756984' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Fri, 31 Oct 2025 01:08:53 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/jquery-ui.css' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/common.css' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/uwi.conf' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/css/jquery.timepicker.css' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/css/mega4.css' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.timepicker.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery-ui.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/jquery.textfill.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/js/mega4.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/js/common.js' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/common/img/refresh_disabled.gif' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/wait.gif' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890934466564721' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://10.0.0.60:8000' | CONNECT
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/favicon.ico' | STATIC
+Fri, 31 Oct 2025 01:08:54 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890920955756984' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5788' | DISCONNECT
+Fri, 31 Oct 2025 01:08:55 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/board.jpg' | STATIC
+Fri, 31 Oct 2025 01:08:55 -0500 | ACCESS | http       | url:'http://10.0.0.60:8000/mega4/img/on.png' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/mega4/' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/css/jquery-ui.css' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/css/jquery.timepicker.css' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/uwi.conf' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/css/common.css' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/js/jquery.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/mega4/css/mega4.css' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/js/jquery.textfill.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/js/jquery.timepicker.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/js/jquery-ui.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/mega4/js/mega4.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/js/common.js' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/common/img/refresh_disabled.gif' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/mega4/img/wait.gif' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890962724057248' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max:8000' | CONNECT
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | http       | url:'http://max:8000/favicon.ico' | STATIC
+Fri, 31 Oct 2025 01:09:22 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890934466564721' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://10.0.0.60:8000' pid:'5858' | DISCONNECT
+Fri, 31 Oct 2025 01:09:23 -0500 | ACCESS | http       | url:'http://max:8000/mega4/img/board.jpg' | STATIC
+Fri, 31 Oct 2025 01:09:23 -0500 | ACCESS | http       | url:'http://max:8000/mega4/img/on.png' | STATIC
+Fri, 31 Oct 2025 01:12:40 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1761890962724057248' remote:'10.0.0.20' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max:8000' pid:'5928' | DISCONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 07:17:38 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 07:17:38 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 07:17:38 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 07:17:38 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 07:17:38 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 07:17:43 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 07:17:43 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 07:17:43 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 07:17:43 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2733
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 17:56:30 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 17:56:30 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 17:56:30 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:56:30 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:56:30 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 17:56:35 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 17:56:35 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 17:56:35 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:56:35 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2715
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 17:59:25 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 17:59:25 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 17:59:25 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:59:25 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:59:25 -0500 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Fri, 31 Oct 2025 17:59:30 -0500 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Fri, 31 Oct 2025 17:59:30 -0500 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Fri, 31 Oct 2025 17:59:30 -0500 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Fri, 31 Oct 2025 17:59:30 -0500 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2691
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-120x120-precomposed.png' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-120x120.png' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-precomposed.png' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1762039719692604585' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_ffffff_256x240.png' | STATIC
+Sat, 01 Nov 2025 18:28:39 -0500 | ACCESS | http       | url:'http://max.local:8000/common/css/images/ui-icons_777777_256x240.png' | STATIC
+Sat, 01 Nov 2025 18:28:41 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon-precomposed.png' | STATIC
+Sat, 01 Nov 2025 18:28:41 -0500 | ACCESS | http       | url:'http://max.local:8000/mega4/' | STATIC
+Sat, 01 Nov 2025 18:28:41 -0500 | ACCESS | http       | url:'http://max.local:8000/apple-touch-icon.png' | STATIC
+Sat, 01 Nov 2025 18:28:41 -0500 | ACCESS | http       | url:'http://max.local:8000/favicon.ico' | STATIC
+Sat, 01 Nov 2025 18:28:41 -0500 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1762039719692604585' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'13002' | DISCONNECT
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Mon, 03 Nov 2025 11:29:53 -0600 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Mon, 03 Nov 2025 11:29:53 -0600 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Mon, 03 Nov 2025 11:29:53 -0600 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Mon, 03 Nov 2025 11:29:53 -0600 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+Mon, 03 Nov 2025 11:29:53 -0600 | FATAL  | server     |  | Can't start server: listen tcp 10.0.0.60:8000: bind: cannot assign requested address
+UWI server started failed, try again...
+Running command: /home/orangepi/uwi/websocketd --address=10.0.0.60 --port=8000 --staticdir=/home/orangepi/uwi /home/orangepi/uwi/messanger.sh
+Mon, 03 Nov 2025 11:29:58 -0600 | INFO   | server     |  | Serving using application   : /home/orangepi/uwi/messanger.sh 
+Mon, 03 Nov 2025 11:29:58 -0600 | INFO   | server     |  | Serving static content from : /home/orangepi/uwi
+Mon, 03 Nov 2025 11:29:58 -0600 | INFO   | server     |  | Starting WebSocket server   : ws://10.0.0.60:8000/
+Mon, 03 Nov 2025 11:29:58 -0600 | INFO   | server     |  | Serving CGI or static files : http://10.0.0.60:8000/
+UWI server is started with pid=2820
+Mon, 03 Nov 2025 13:16:21 -0600 | ACCESS | http       | url:'http://max.local:8000/uwi.conf' | STATIC
+Mon, 03 Nov 2025 13:16:21 -0600 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1762197381697023550' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' | CONNECT
+Mon, 03 Nov 2025 13:16:30 -0600 | ACCESS | session    | url:'http://10.0.0.60:8000/' id:'1762197381697023550' remote:'10.0.0.25' command:'/home/orangepi/uwi/messanger.sh' origin:'http://max.local:8000' pid:'5232' | DISCONNECT
