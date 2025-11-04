@@ -6,13 +6,7 @@
 
 # get current directory
 mydir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-
-# check it is running in 32-bit or 64-bit OS
-#if [ "$(uname -m)" == 'aarch64' ]; then
 uhubctl="$mydir/uhubctl"
-#else
-#  uhubctl="$mydir/uhubctl_32"
-#fi
 
 hub_id_ok()
 {
