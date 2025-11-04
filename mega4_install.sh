@@ -20,43 +20,37 @@ ERR=0
 
 echo '================================================================================'
 echo '|                                                                              |'
-echo '|                   MEGA4 Software Installation Script                      |'
+echo '|                   MEGA4 Software Installation Script                         |'
 echo '|                                                                              |'
 echo '================================================================================'
 
 
-# disable usb autosuspend (make devices more responsive)
-#echo '>>> Disable USB autosuspend'
-#auto_suspend=$(grep 'usbcore.autosuspend=-1' /boot/cmdline.txt)
-#if [[ -z "$auto_suspend" ]]; then
-#  sudo sed -i -e 's/$/ usbcore.autosuspend=-1/' /boot/cmdline.txt
-#fi
+# Disable USB autosuspend by adding this line to /etc/rc.local before 'exit 0'
+#
+# echo -1 > /sys/module/usbcore/parameters/autosuspend
 
 # install MEGA4 software
-#if [ $ERR -eq 0 ]; then
-#  echo '>>> Install MEGA4 software'
-#  if [ -d "mega4" ]; then
-#    echo 'Seems MEGA4 software is installed already, skip this step.'
-#  else
-#    wget https://www.uugear.com/repo/MEGA4/LATEST -O mega4.zip || ((ERR++))
-#    unzip mega4.zip -d mega4 || ((ERR++))
-#    cd mega4
-#    chmod +x mega4.sh
-#    chmod +x uhubctl_32
-#    chmod +x uhubctl_64
-#    cd ..
-#    chown -R $SUDO_USER:$(id -g -n $SUDO_USER) mega4 || ((ERR++))
-#    sleep 2
-#    rm mega4.zip
-#  fi
-#fi
+if [ $ERR -eq 0 ]; then
+  echo '>>> Install MEGA4 software'
+  if [ -d "mega4" ]; then
+    echo 'Seems MEGA4 software is installed already, skip this step.'
+  else
+    cd mega4
+    chmod +x mega4.sh
+    chmod +x uhubctl
+    cd ..
+    chown -R $SUDO_USER:$(id -g -n $SUDO_USER) mega4 || ((ERR++))
+    sleep 2
+  fi
+fi
 
 # install UUGear Web Interface
-#curl https://www.uugear.com/repo/UWI/installUWI.sh | bash
+chmod +x installUWI.sh
+bash installUWI.sh
 
 echo
 if [ $ERR -eq 0 ]; then
-  echo '>>> All done. Please reboot your Pi :-)'
+  echo '>>> All done. Please reboot your OPi'
 else
-  echo '>>> Something went wrong. Please check the messages above :-('
+  echo '>>> Something went wrong. Please check the messages above'
 fi
